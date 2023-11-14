@@ -24,7 +24,7 @@ namespace NetFlask.Web.Controllers
                 Description = @"Quand la nouvelle reine Elsa utilise accidentellement son pouvoir plongeant tout son royaume dans un hiver éternel, sa soeur Anna fait équipe avec un montagnard, son renne espiègle et un bonhomme de neige pour changer les conditions météorologiques.",
                 Directors =  "Chris Buck, Jennifer Lee" ,
                 Genre = "Animation",
-                PicturePath = "/images/frozenmovie.jpg",
+                PicturePath = "/images/frozenbis.png",
                 Rating = 7.4,
                 ReleaseDate = new DateTime(2013, 12, 4)
             };

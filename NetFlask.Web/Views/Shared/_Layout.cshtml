@@ -12,6 +12,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href="/css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- Custom Theme files -->
 	<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<style>
+		.header{
+			background: url('@Model.HeaderMovie.PicturePath') no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			-ms-background-size: cover;
+			min-height: 750px;
+		}
+	</style>
 	<!-- Custom Theme files -->
 	<script src="/js/jquery.min.js"></script>
 	<!-- Custom Theme files -->
@@ -62,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 
-@RenderBody()
+			@RenderBody()
 
 			<div class="footer">
 				<h6>Disclaimer : </h6>
